@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence de voiture "Orange"</title>
+    <link rel="stylesheet" href="styleagence.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!----------------------l'entête----------------------->
+
+    <div id="entete">
+
+    <Nav id="acceuil">
+        <img src="racing-car.png" alt="logo car">
+        <a href="#acceuil">Acceuil</a>
+        <a href="#Bloc">Blog</a>
+        <a href="#Trafis"> Tarifaction</a>
+        <a href="#Reservation">Réservation</a>
+        <a href="#contact">Contact</a>
+    </Nav>
+
+    </div>
+
+     <!----------------------Partie acceuil----------------------->
+<div id="main">
+
+    <h1> Location de voiture en tunisie </h1>
+    <img class="IMG" src="locationvoiture.png" alt="location de voiture" >
+
+</div>
+
+<div class="partie1">
+    <p class="parg"> <strong> Découvrez notre Agence de location de voiture
+        qui vous permet de nous contacter directement
+         par téléphone ou d’enregistrer
+        votre réservation à l’avance sur un formulaire </strong> <br> <br>
+    <button class="bouton"><i class="fa fa-car"></i> Utuliser l'application</button>
+    </p>
+   <img class="image1" src="3voitures.png" alt="photo de 3 voiture">
+</div>
+
+<!----------------------la qualité de nos services----------------------->
+ <div class="container">
+    <p class="parg1">Pourquoi choisir notre Agence ? <br>
+       L’objectif de notre entreprise est d’atteindre la meilleure qualité de service sur le marché, pour cela nous mettons l’accent sur 4 points essentiels :
+    </p>
+    <div class="contenu">
+        <div>
+       <img class=""src="back-in-time.png" alt="Horloge">
+       <h3>Ponctualité</h3>
+      </div>
+        <div>
+       <img class=""src="secure-shield.png" alt="securité">
+       <h3 class="i"> Sécurité</h3>
+      </div>
+      <div>
+        <img class="IMG1"src="money.png" alt="argents">
+        <h3>Tarifs abordables</h3>
+    </div>
+    <div>
+        <img class="IMG1"src="star.png" alt="une étaoile">
+        <h3>Service fiable et efficace</h3>
+     </div> 
+</div> 
+
+<h2>Que proposons-nous ? <br> le Confort, le silence et l'efficacité</h2>
+<div class="voiture">
+     <div class="polaroid">
+     <img src="rouge.png" alt="voiture bleu" >
+     <div class="container1">
+     <p>Renault Clio Rouge </p>
+    </div>
+    </div>
+
+    <div class="polaroid">
+     <img src="noir.jpg" alt="voiture noir" style="width:100%">
+     <div class="container1">
+     <p>Renault Clio Noir</p>
+      </div>
+     </div>
+
+     <div class="polaroid">
+    <img src="blanc.jpg" alt="voiture blanc" style="width:100%">
+    <div class="container1">
+    <p>Renault Clio Blanche</p>
+     </div>
+    </div>
+</div>
+
+<!--------------------les collaborateurs---------------------->
+
+      <h2> Quelques entreprises servies quotidiennement </h2>
+     </div>   
+     <div><img class="image8" src="collaborateur2.png" alt="collaborateurs"></div> 
+          </div>
+          <br>
+
+
+ <!--------------------Formulaire de contact--------------------->
+     <div class="flex-container ">
+        <h2> Réservation: </h2>
+
+        <div>
+      <form action="/action_page.php">
+        <label for="lname">Date de naissance :</label>
+        <br>
+        <input type="date" id="birthday" name="birthday" >
+        <br>
+
+        <label for="lname">Heure :</label>
+        <br>
+        <input type="time" id="time" name="heure" >
+        <br>
+
+        <label for="lname"> Débart : </label>
+        <select name="Profession" id="pet-select">
+            <option value="select">Tunis</option>
+            <option value="Etudiant">Bizerte</option>
+            <option value="Enseignant">Sousse</option>
+            <option value="Ingénieur">Jerba</option>
+            <option value="Ingénieur">Gabes</option>
+            <option value="Ingénieur">El Kef</option>
+        </select>
+
+        <label for="lname"> Arrivé : </label>
+        <select name="Profession" id="pet-select">
+            <option value="select">Tunis</option>
+            <option value="Etudiant">Bizerte</option>
+            <option value="Enseignant">Sousse</option>
+            <option value="Ingénieur">Jerba</option>
+            <option value="Ingénieur">Gabes</option>
+            <option value="Ingénieur">El Kef</option>
+        </select>
+        <label for="lname"> Type de voiture : </label>
+        <select name="Profession" id="pet-select">
+            <option value="select">Renault Clio Rouge</option>
+            <option value="Etudiant">Renault Clio Noir</option>
+            <option value="Enseignant">Renault Clio Blanche</option>
+
+        </select>
+
+       <label for="fname">Nom :</label>
+        <input type="text" id="fname" name="firstname" placeholder="votre Nom">
+        <br>
+        <label for="lname">Prénom :</label>
+         <input type="text" id="lname" name="lastname" placeholder="votre prénom">
+         <br>
+         <label for="country">Téléphone :</label>
+         <input type="tel" id="tel" name="tel" placeholder="+216......">
+         <br>
+         <br>
+         <label for="country">Email :</label>
+         <input type="text" id="email" name="email" placeholder="votre mail">
+         <br>
+         <label for="message">Message: </label>
+         <br>
+         <textarea type="msg" name="user_message" cols="135" rows="10"></textarea>
+      
+       <input type="submit" value="Submit">
+       </form>
+        </div> 
+    </div>
+    <br>
+    
+</div>
+<!------------------------------------MAP -------------------------------->
+<h2> Contact: </h2>
+  
+<div class="map">
+    <div>
+        <div class="partie3"> <p> Agence Orange Tunisie <br>
+            Application : https://agenceorange.tn <br>
+            Mail : location@agenceorange.tn <br>
+            Téléphone : (+216) 70 24 24 24  <br>
+            Adresse : 2, Avenue perrouquet Mourouj 1<br> </p> </div>
+    
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12789.484411738054!2d10.196449827217888!3d36.737662529381446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd36fb2053b62b%3A0x8ee03cc5ff71da36!2sEl%20Mourouj%201%2C%20El%20Mourouj!5e0!3m2!1sfr!2stn!4v1602586986472!5m2!1sfr!2stn" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+     </div>
+<!------------------------------------Footer -------------------------------->
+<div id="footer">
+    <div id="mobile-menu">
+        <div id="mobile-footer-container">
+          <div class="">
+           +216 52001406 
+          </div>
+          <div class="">
+            location@agenceorange.tn
+          </div>
+          <div class="">
+           <img src="facebook.png" alt="Facebook">
+           <img src="instagram.png" alt="Instagram">
+           <img src="linkedin-logo.png" alt="LInKedin">
+          </div>
+        </div>
+      </div>
+      <div id="mobile-footer-close">
+            <span>
+            </span>
+          </div>
+      </div> 
+</div>
+</body>
+</html>

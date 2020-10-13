@@ -1,0 +1,282 @@
+/****************** Entete ***************/
+#entete, #menu, #contenu, #footer {
+    padding:1px 0;
+    }
+
+    #entete {
+    background-color:#000000;
+    text-align:center;
+    height: 80px;
+    padding-top: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+    }
+
+    .background {
+        background-image: url("/home/manel/Bureau/HTML/Agence de voyage/location-voiture.jpg");
+        padding-bottom: 450px;
+        background-size: cover;
+    }
+
+    h1 {
+      text-align:center;
+      color: #000000;
+  }
+/****************** IMage ***************/
+  .IMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+    
+    .IMG1 {
+        margin-left: 30px; 
+    }
+
+    .i{
+        margin-left: 20px;
+    }
+
+    div.polaroid {
+      margin:25px;
+      width: 80%;
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom: 25px;
+    }
+    
+    div.container {
+      text-align: center;
+      padding: 10px 20px;
+    }
+    div.container1 {
+        text-align: center;
+        padding: 10px 20px;
+        display: flex;
+        margin-left: 70px;
+      }
+
+    .voiture{
+        display: flex;
+    }
+
+    h2 {
+        background-color: black;
+        color: #ffffff;    
+    }
+
+  .main {
+    max-width:1300px;
+    margin:auto;
+    background-color: rgb(3, 3, 3)
+    }
+    .flex-container {
+        margin: -5px;
+        padding: 20px;
+        background-image: url("/home/manel/Bureau/HTML/Agence de voyage/car2.jpeg");
+        background-size: cover;
+      }
+      
+      .flex-container > div {
+        background-color: #000000;
+        margin: 100px;
+        padding: 20px;
+        font-size: 20px;
+        color: #ffffff;
+      }
+      .contenu {
+        display: flex;
+        justify-content: space-around;
+        background-color: #ffffff;
+        margin: 10px;
+        padding: 20px;
+        }
+
+    .image4 {
+      float:left;
+      display: block;
+        width:300px;
+        background-color:#0f0f0f;
+        position: absolute;
+        min-height: 150px;
+    }
+    .image2 {
+      margin:10px; 
+      padding:0;
+      height: 120px;
+    }
+
+    .parg{
+        min-height : 120px;
+        text-align: center;
+        padding-top: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aliceblue;
+     }
+
+     .parg1{
+        text-align: center;
+          padding-top: 30px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color: rgb(0, 0, 0);
+       }
+     .parg2{
+      margin-inline-end: auto;
+      min-height : 150px;
+
+     }
+
+ .entete nav a{
+     list-style-type: none;
+     text-decoration: none;
+    cursor: crosshair;
+    
+    }
+    a {
+      text-decoration: none;
+      padding-left: 100px;
+      cursor: crosshair;
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: bold;
+
+    }
+
+    .partie1{     
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        padding: 20px;
+        background-color: rgb(0, 0, 0);
+      }
+ 
+      .image1 {
+        float: right;
+          width:780px;
+          position: relative;
+          min-height: 150px;
+      }
+  
+      .bouton {
+        background-color: #ff8019;
+        border: none;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        cursor: pointer;
+      }
+      
+/****************** Footer ***************/
+
+      #footer {
+    clear:both;
+    background-color: #ff8019;
+    text-align:center;
+    height: 50px;
+    padding-top: 20px;
+    }
+
+    .message{padding-bottom: 10px;}
+
+
+      .partie2{     
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        padding: 20px;
+        background-color: rgb(153, 245, 173);
+      }
+      .partie3{     
+        display: flex;
+        flex-direction: row;
+        margin: 100px;
+        padding: 20px;
+        color: #ffffff;
+        background-color: black;
+        font-size: large;
+    
+      }
+
+       .parg3{
+        margin-right:180px;
+        min-height : 120px;
+  
+       }
+
+       .image8{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+          height: max-content;
+       }
+
+       .collaborateurs{
+          display: flex;
+          flex-wrap: wrap;
+          background-color: rgb(153, 245, 173);
+        }
+        
+        .collaborateurs > div {
+          width: 100px;
+          margin: 10px;
+          text-align: center;
+          line-height: 75px;
+          font-size: 30px;
+        }
+/****************** Formulaire ***************/
+
+        input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        
+        input[type=submit] {
+          width: 100%;
+          background-color: #ff8019;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color:  #ff8019;
+        }
+
+        .icon{
+          width: 50px;
+          height: 50px;
+          border-radius: 50px;
+        }
+        
+        #formulaire {
+          border-radius: 5px;
+          padding: 20px;
+        }
+        
+    #mobile-footer-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      overflow: hidden;
+      color: rgb(0, 0, 0);
+  }
+.map {
+  display: flex;
+}
+.par{
+  color: #ffffff;
+}
